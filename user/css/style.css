@@ -1,0 +1,386 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+:root {
+  --main-color: #E57373;
+  --main-white: white;
+}
+
+.form {
+  margin: auto;
+  background: #FFFFFF;
+  max-width: 100%;
+  /* padding: 45px; */
+  text-align: left;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  /* margin: 0 0 15px; */
+  padding: 15px;
+  display: block;
+  /* box-sizing: border-box; */
+  color: #717171;
+  font-size: 14px;
+}
+
+.form button {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #e57373;
+  width: 150px;
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+  margin: auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+/* change */
+.gender label {
+  margin-top: 18px;
+  margin-left: 5px;
+  display: inline;
+  width: 40%;
+}
+
+.girl input {
+  position: relative;
+  right: 22px;
+  margin-top: 18px;
+  margin-left: 5px;
+  display: inline;
+  width: 40%;
+}
+
+.boy input {
+  position: relative;
+  right: 33px;
+  margin-top: 18px;
+  margin-left: 5px;
+  display: inline;
+  width: 40%;
+}
+
+/* end*/
+
+.genderbox {
+  width: 20%;
+  /* border: solid #f2f2f2 1px;
+  background-color:#f2f2f2; */
+  border-radius: 5%;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #e57373;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  /* color: #e57373; */
+  color: blue;
+  text-decoration: none;
+}
+
+textarea {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.form-group {
+  float: left;
+}
+
+/* 
+.form .register-form {
+  display: none;
+} */
+
+.form .forgot-password-form {
+  display: none;
+}
+
+/* .form .forgot-password-form {
+  display: none;
+} */
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+
+.navbar {
+  background-color: var(--main-color)
+}
+
+.navbar-brand {
+  color: var(--main-white);
+}
+
+.nav-link {
+  color: var(--main-white);
+}
+
+#text-search {
+  border-color: var(--main-color);
+}
+
+.select-style {
+  color: #696666;
+  border-radius: 5px;
+  border-color: var(--main-color);
+}
+
+.select-style:hover {
+  color: #E57373;
+}
+
+#btn-search {
+  background-color: var(--main-color);
+  color: var(--main-white);
+}
+
+.list-group-item {
+  border-color: var(--main-color);
+}
+
+.name-dn {
+  margin-left: 2px;
+}
+
+.bg-dn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bg-dn {
+  background-color: var(--main-color);
+  color: var(--main-white);
+}
+
+.card {
+  border-color: var(--main-color);
+}
+
+.c-body1 {
+  padding-top: 5px;
+}
+
+.salary {
+  color: red;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.cpn-title {
+  margin-bottom: 5px;
+}
+
+.name-place {
+  margin-bottom: 5px;
+}
+
+.card-img-top {
+  width: 100%;
+  padding: 20%;
+}
+
+.footer {
+  background-color: var(--main-color);
+  color: var(--main-white);
+  padding: 20px;
+}
+
+.btn-color {
+  background-color: var(--main-color);
+  color: var(--main-white);
+  border-color: var(--main-color);
+}
+
+.btn-color:hover {
+  background: #f5d3d3;
+}
+
+.see-more {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.see-more:hover {
+  color: #f5d3d3;
+}
+
+.bg-job {
+  border-radius: 10px;
+  background-color: #f5d3d3;
+}
+
+/* .footer{
+  display: flex-direc;
+} */
+/* .container.text-footer p{
+  width: 1000px;
+} */
+
+.icon-heart {
+  position: absolute;
+  right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #e9bdbd;
+}
+
+.icon-heart:hover {
+  color: var(--main-color);
+}
+
+.text-job {
+  text-decoration: none;
+  color: black;
+}
+
+.text-job:hover {
+  color: var(--main-color);
+}
+
+/* change icon-user */
+#icon {
+  position: relative;
+  top: 5px;
+  right: 8px;
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+#icon:hover {
+  color: #f5d3d3;
+}
+
+/* change */
+#hello-user {
+  color: var(--main-white);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* */
+.container-cv {
+  margin-bottom: -25px;
+}
+
+.text-con-cv {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(43, 43, 43);
+}
+
+.text-con-cv:hover {
+  color: var(--main-color);
+}
+
+.iconPro {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.iconPro:hover {
+  background: #e9bdbd;
+  border-color: #e9bdbd;
+}
+
+.table-manage-cv {
+  margin-bottom: 150px;
+}
+
+/* inf-cpn */
+#jobs-cpn,
+#add_comp,
+#infor_comp {
+  background-color: #f5dede;
+  border-radius: 10px;
+}
+
+.nav-item1 {
+  border: 1px solid var(--main-color);
+  margin: 10px;
+  padding: 10px;
+  background-color: #fbbebe;
+  border-radius: 10px;
+}
+
+.nav-link1 {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+
+}
+
+.nav-link1:hover {
+  color: #f5dede;
+}
+
+/* Chi tiết cv */
+.btn-recruit {
+  background-color: var(--main-color);
+  color: var(--main-white);
+  /* position: absolute; */
+  /* transform: translate(80%); */
+}
+
+.btn-recruit:hover {
+  background-color: var(--main-white);
+  color: var(--main-color);
+}
+
+/* add icon logout */
+#icon-nav {
+  color: var(--main-white);
+  font-size: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+#icon-nav:hover {
+  color: #e9bdbd;
+}
