@@ -20,6 +20,8 @@ B. Ứng viên
 
 **Phần mềm**: VS Code, XAMPP
 
+**Công nghệ sử dụng:** HTML, CSS, JS, Bootstrap, PHP
+
 **Các bước thực hiện**
 
 Bước 1: Tải dự án về và để vào thư mục "htdocs" trong thư mục xampp
